@@ -1,5 +1,8 @@
 # Adii-MD
 
+### Other README
+See READMEID.md
+
 <a href="https://github.com/Adiixyz/Adii-MD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Adiixyz/Adii-MD?label=Forks&color=blue&style=flat-square"></a>
 <a href="https://github.com/Adiixyz/Adii-MD/watchers"><img title="Watchers" src="https://img.shields.io/github/watchers/Adiixyz/Adii-MD?label=Watchers&color=green&style=flat-square"></a>
 <a href="https://github.com/Adiixyz/Adii-MD/stargazers"><img title="Stars" src="https://img.shields.io/github/stars/Adiixyz/Adii-MD?label=Stars&color=yellow&style=flat-square"></a>
