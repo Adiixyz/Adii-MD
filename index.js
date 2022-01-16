@@ -1,4 +1,5 @@
-console.log('Starting...')
+console.log('Baileys-MD Ready!')
+console.log('Modules Ready!')
 let cluster = require('cluster')
 let path = require('path')
 let fs = require('fs')
@@ -8,12 +9,12 @@ const Readline = require('readline')
 const yargs = require('yargs/yargs')
 const rl = Readline.createInterface(process.stdin, process.stdout)
 
-CFonts.say('Lightweight\nWhatsApp Bot', {
-  font: 'chrome',
+CFonts.say('Adii-MD', {
+  font: '3dtext',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
+CFonts.say(`Have a good day!`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
