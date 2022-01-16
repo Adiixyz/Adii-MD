@@ -1,6 +1,6 @@
 {
-    "name": "games-wabot",
-    "version": "0.9.86",
+    "name": "Adii-MD",
+    "version": "1.0.0",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
     "main": "index.js",
