@@ -2,11 +2,6 @@ const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessa
 let fs = require('fs')
 let path = require('path')
 let levelling = require('../lib/levelling')
-let totalfeature = Object.values(global.plugins).filter(
-    (v) => v.help && v.tags
-  ).length;let totalfeature = Object.values(global.plugins).filter(
-    (v) => v.help && v.tags
-  ).length;
 let tags = {
     'main': 'Main',
     'rpg': 'Epic RPG',
@@ -41,21 +36,35 @@ const defaultMenu = {
 │ ✾ Library: Baileys-MD
 │ ✾ Runtime: %uptime
 │ ✾ Registered Users : %rtotalreg from %totalreg
-│ ✾ Total Features : ${totalfeature}
 ╰❑
-╭────ꕥ「 INFO USER 」ꕥ─────
+╭────ꕥ INFO USER ꕥ─────
 │ ✾ Name: %name
 │ ✾ Limit: %limit
-│ ✾ Money: %money
 │ ✾ Exp: %totalexp
 │ ✾ Level: %level
 │ ✾ Role: %role
 ╰❑
+╭────ꕥ INFO DEVELOPER ꕥ─────
+│ ✾ Name: Adii Ndre
+│ ✾ Tag: @60199782326
+│ ✾ Age: 20
+│ ✾ Birthday: 18/03
+│ ✾ Favorite song: Rauf & Faik - колыбельная
+│ ✾ Likes: a girl 🗿
+│ ✾ Dislikes: your mom 🗿
+╰❑
 %readmore`.trimStart(),
-  header: '╭────ꕥ「 %category 」ꕥ─────',
+  header: '╭────ꕥ %category ꕥ─────',
   body: '│ ✾ %cmd %islimit %isPremium',
-  footer: '╰────❑\n',
-  after: `
+  footer: '╰❑\n',
+  after: `╭────ꕥ THANKS TO ꕥ─────
+│ ✾ BochilGaming
+│ ✾ Nurutomo
+│ ✾ Adhiraj Singh (adiwajshing)
+│ ✾ Adii
+│ ✾ All bots users
+╰❑
+
 *%npmname@^%version*
 ${'```%npmdesc```'}
 `,
@@ -175,9 +184,9 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 
            },
                {
-             callButton: {
-               displayText: 'Owner Adii',
-               phoneNumber: '60199782326'
+             urlButton: {
+               displayText: 'Rest Api',
+               url: 'https://adiixyzapi.herokuapp.com'
              }
            },
                {
